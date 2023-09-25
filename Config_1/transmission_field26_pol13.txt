@@ -1,0 +1,642 @@
+Polarization Transmission Data
+
+File : C:\Users\operator\Documents\GitHub\ZemaxCalibrate\EngDrwV3.5.1_POL.zmx
+Title: WALOP-North
+Date : 9/16/2023
+Configuration 1 of 4
+
+X-Field     :  0.7071
+Y-Field     :  0.7071
+X-Phase     :    0.00
+Y-Phase     :    0.00
+
+Grid Size : 32 x 32
+
+Aperture, Fresnel, coating, vignetting, and internal transmittance effects are considered.
+
+Field Pos : 0.0100, 0.0100 (deg)
+  Transmission at    0.5400:     0.054638323
+  Transmission at    0.5550:     0.052830615
+  Transmission at    0.5800:     0.049620136
+  Transmission at    0.6200:     0.050312044
+  Transmission at    0.6600:     0.054814869
+  Transmission at    0.6850:     0.055393961
+  Transmission at    0.7000:     0.053406822
+  Total Transmission       :     0.052600015
+
+Field Pos : 0.0100, 0.0300 (deg)
+  Transmission at    0.5400:     0.054634680
+  Transmission at    0.5550:     0.052843074
+  Transmission at    0.5800:     0.049596351
+  Transmission at    0.6200:     0.050270128
+  Transmission at    0.6600:     0.054733185
+  Transmission at    0.6850:     0.055309057
+  Transmission at    0.7000:     0.053361423
+  Total Transmission       :     0.052556127
+
+Field Pos : 0.0100, 0.0500 (deg)
+  Transmission at    0.5400:     0.054600271
+  Transmission at    0.5550:     0.052827165
+  Transmission at    0.5800:     0.049543753
+  Transmission at    0.6200:     0.050215181
+  Transmission at    0.6600:     0.054640253
+  Transmission at    0.6850:     0.055204488
+  Transmission at    0.7000:     0.053295984
+  Total Transmission       :     0.052491993
+
+Field Pos : 0.0100, 0.0800 (deg)
+  Transmission at    0.5400:     0.054317529
+  Transmission at    0.5550:     0.052588154
+  Transmission at    0.5800:     0.049254651
+  Transmission at    0.6200:     0.049957215
+  Transmission at    0.6600:     0.054310611
+  Transmission at    0.6850:     0.054834624
+  Transmission at    0.7000:     0.052997161
+  Total Transmission       :     0.052194901
+
+Field Pos : 0.0100, 0.1000 (deg)
+  Transmission at    0.5400:     0.054026470
+  Transmission at    0.5550:     0.052337809
+  Transmission at    0.5800:     0.048969192
+  Transmission at    0.6200:     0.049723224
+  Transmission at    0.6600:     0.054023414
+  Transmission at    0.6850:     0.054502400
+  Transmission at    0.7000:     0.052885196
+  Total Transmission       :     0.051917362
+
+Field Pos : 0.0100, 0.1200 (deg)
+  Transmission at    0.5400:     0.054033724
+  Transmission at    0.5550:     0.052384437
+  Transmission at    0.5800:     0.048954713
+  Transmission at    0.6200:     0.049796969
+  Transmission at    0.6600:     0.054071677
+  Transmission at    0.6850:     0.054660870
+  Transmission at    0.7000:     0.053753659
+  Total Transmission       :     0.051981382
+
+Field Pos : 0.0100, 0.1400 (deg)
+  Transmission at    0.5400:     0.053486746
+  Transmission at    0.5550:     0.051904219
+  Transmission at    0.5800:     0.048442461
+  Transmission at    0.6200:     0.049396567
+  Transmission at    0.6600:     0.053601627
+  Transmission at    0.6850:     0.054957929
+  Transmission at    0.7000:     0.053944382
+  Total Transmission       :     0.051668748
+
+Field Pos : 0.0100, 0.1600 (deg)
+  Transmission at    0.5400:     0.053057291
+  Transmission at    0.5550:     0.051546829
+  Transmission at    0.5800:     0.048043159
+  Transmission at    0.6200:     0.049151096
+  Transmission at    0.6600:     0.053804027
+  Transmission at    0.6850:     0.055231555
+  Transmission at    0.7000:     0.053614423
+  Total Transmission       :     0.051562427
+
+Field Pos : 0.0100, 0.1800 (deg)
+  Transmission at    0.5400:     0.052572453
+  Transmission at    0.5550:     0.051143122
+  Transmission at    0.5800:     0.047602205
+  Transmission at    0.6200:     0.048902644
+  Transmission at    0.6600:     0.054172755
+  Transmission at    0.6850:     0.054794877
+  Transmission at    0.7000:     0.053265150
+  Total Transmission       :     0.051329478
+
+Field Pos : 0.0100, 0.2100 (deg)
+  Transmission at    0.5400:     0.051824310
+  Transmission at    0.5550:     0.050524422
+  Transmission at    0.5800:     0.046944097
+  Transmission at    0.6200:     0.049062926
+  Transmission at    0.6600:     0.054304034
+  Transmission at    0.6850:     0.054181799
+  Transmission at    0.7000:     0.052783148
+  Total Transmission       :     0.051008636
+
+Field Pos : 0.0100, 0.2300 (deg)
+  Transmission at    0.5400:     0.051031160
+  Transmission at    0.5550:     0.049821071
+  Transmission at    0.5800:     0.046257873
+  Transmission at    0.6200:     0.049262044
+  Transmission at    0.6600:     0.053829008
+  Transmission at    0.6850:     0.053521639
+  Transmission at    0.7000:     0.052207433
+  Total Transmission       :     0.050542634
+
+Field Pos : 0.0100, 0.2500 (deg)
+  Transmission at    0.5400:     0.050339559
+  Transmission at    0.5550:     0.049204496
+  Transmission at    0.5800:     0.045976391
+  Transmission at    0.6200:     0.049450796
+  Transmission at    0.6600:     0.053525074
+  Transmission at    0.6850:     0.053011455
+  Transmission at    0.7000:     0.051756650
+  Total Transmission       :     0.050236887
+
+
+Chief Ray Transmission Surface By Surface:
+
+Field Pos : 0.0100, 0.0100 (deg)
+Wavelength 1: 0.540 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.0100 (deg)
+Wavelength 2: 0.555 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.0100 (deg)
+Wavelength 3: 0.580 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.0100 (deg)
+Wavelength 4: 0.620 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.0100 (deg)
+Wavelength 5: 0.660 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.0100 (deg)
+Wavelength 6: 0.685 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.0100 (deg)
+Wavelength 7: 0.700 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.0300 (deg)
+Wavelength 1: 0.540 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.0300 (deg)
+Wavelength 2: 0.555 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.0300 (deg)
+Wavelength 3: 0.580 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.0300 (deg)
+Wavelength 4: 0.620 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.0300 (deg)
+Wavelength 5: 0.660 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.0300 (deg)
+Wavelength 6: 0.685 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.0300 (deg)
+Wavelength 7: 0.700 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.0500 (deg)
+Wavelength 1: 0.540 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.0500 (deg)
+Wavelength 2: 0.555 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.0500 (deg)
+Wavelength 3: 0.580 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.0500 (deg)
+Wavelength 4: 0.620 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.0500 (deg)
+Wavelength 5: 0.660 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.0500 (deg)
+Wavelength 6: 0.685 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.0500 (deg)
+Wavelength 7: 0.700 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.0800 (deg)
+Wavelength 1: 0.540 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.0800 (deg)
+Wavelength 2: 0.555 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.0800 (deg)
+Wavelength 3: 0.580 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.0800 (deg)
+Wavelength 4: 0.620 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.0800 (deg)
+Wavelength 5: 0.660 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.0800 (deg)
+Wavelength 6: 0.685 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.0800 (deg)
+Wavelength 7: 0.700 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.1000 (deg)
+Wavelength 1: 0.540 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.1000 (deg)
+Wavelength 2: 0.555 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.1000 (deg)
+Wavelength 3: 0.580 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.1000 (deg)
+Wavelength 4: 0.620 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.1000 (deg)
+Wavelength 5: 0.660 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.1000 (deg)
+Wavelength 6: 0.685 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.1000 (deg)
+Wavelength 7: 0.700 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.1200 (deg)
+Wavelength 1: 0.540 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.1200 (deg)
+Wavelength 2: 0.555 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.1200 (deg)
+Wavelength 3: 0.580 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.1200 (deg)
+Wavelength 4: 0.620 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.1200 (deg)
+Wavelength 5: 0.660 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.1200 (deg)
+Wavelength 6: 0.685 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.1200 (deg)
+Wavelength 7: 0.700 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.1400 (deg)
+Wavelength 1: 0.540 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.1400 (deg)
+Wavelength 2: 0.555 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.1400 (deg)
+Wavelength 3: 0.580 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.1400 (deg)
+Wavelength 4: 0.620 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.1400 (deg)
+Wavelength 5: 0.660 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.1400 (deg)
+Wavelength 6: 0.685 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.1400 (deg)
+Wavelength 7: 0.700 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.1600 (deg)
+Wavelength 1: 0.540 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.1600 (deg)
+Wavelength 2: 0.555 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.1600 (deg)
+Wavelength 3: 0.580 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.1600 (deg)
+Wavelength 4: 0.620 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.1600 (deg)
+Wavelength 5: 0.660 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.1600 (deg)
+Wavelength 6: 0.685 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.1600 (deg)
+Wavelength 7: 0.700 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.1800 (deg)
+Wavelength 1: 0.540 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.1800 (deg)
+Wavelength 2: 0.555 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.1800 (deg)
+Wavelength 3: 0.580 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.1800 (deg)
+Wavelength 4: 0.620 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.1800 (deg)
+Wavelength 5: 0.660 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.1800 (deg)
+Wavelength 6: 0.685 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.1800 (deg)
+Wavelength 7: 0.700 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.2100 (deg)
+Wavelength 1: 0.540 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.2100 (deg)
+Wavelength 2: 0.555 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.2100 (deg)
+Wavelength 3: 0.580 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.2100 (deg)
+Wavelength 4: 0.620 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.2100 (deg)
+Wavelength 5: 0.660 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.2100 (deg)
+Wavelength 6: 0.685 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.2100 (deg)
+Wavelength 7: 0.700 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.2300 (deg)
+Wavelength 1: 0.540 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.2300 (deg)
+Wavelength 2: 0.555 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.2300 (deg)
+Wavelength 3: 0.580 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.2300 (deg)
+Wavelength 4: 0.620 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.2300 (deg)
+Wavelength 5: 0.660 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.2300 (deg)
+Wavelength 6: 0.685 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.2300 (deg)
+Wavelength 7: 0.700 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.2500 (deg)
+Wavelength 1: 0.540 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.2500 (deg)
+Wavelength 2: 0.555 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.2500 (deg)
+Wavelength 3: 0.580 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.2500 (deg)
+Wavelength 4: 0.620 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.2500 (deg)
+Wavelength 5: 0.660 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.2500 (deg)
+Wavelength 6: 0.685 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
+
+Field Pos : 0.0100, 0.2500 (deg)
+Wavelength 7: 0.700 µm
+
+Surf    Tot. Tran    Rel. Tran
+ Chief ray does not trace or is vignetted.
