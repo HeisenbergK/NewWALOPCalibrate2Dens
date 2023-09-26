@@ -87,9 +87,6 @@ mdu[:] = np.nan
 sdq[:] = np.nan
 sdu[:] = np.nan
 
-print(unx)
-exit()
-
 
 for i in range(0, len(master)):
     if not master[i][6] > 0:
