@@ -96,7 +96,7 @@ for i in range(0, len(master)):
         indy = np.where(uny == cury)[0]
         mdq[indy, indx] = master[i][2]
         mdu[indy, indx] = master[i][3]
-        if master[i][4] < 0.003 and master[i][5] < 0.003:
+        if master[i][4] < 0.002 and master[i][5] < 0.002:
             sdq[indy, indx] = master[i][4]
             sdu[indy, indx] = master[i][5]
 

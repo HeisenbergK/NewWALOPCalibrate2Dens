@@ -84,7 +84,8 @@ def testerfunc(
             q, u, fields, tottransmissions, fieldx, fieldy = read_zmx(
                 filelist[i][j], wavelengthno=7
             )
-            print(filelist[i][j],q,u,fields,tottransmissions,fieldx, fieldy)
+            if verbose>2:
+                print(filelist[i][j],q,u,fields,tottransmissions,fieldx, fieldy)
             for k in range(0, len(fields)):
                 rowlist.append(
                     [i, [q, u], [fields[k][0], fields[k][1]], tottransmissions[k]]
