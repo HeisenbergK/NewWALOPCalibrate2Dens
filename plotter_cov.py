@@ -7,27 +7,12 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 from mpl_toolkits.axes_grid1.inset_locator import inset_axes
 
-try:
-    order = int(sys.argv[1])
-except:
-    order = 2
+order = 2
+tests=100
+plim=0.05
+mixed=True
 
-try:
-    mixed = bool(int(sys.argv[2]))
-except:
-    mixed = True
-
-try:
-    tests = int(sys.argv[3])
-except:
-    tests = 1000
-
-try:
-    plim = float(sys.argv[4])
-except:
-    plim = 1.0
-
-filenam = f'Results/fw_random{tests}_order{order}_mixed{mixed}_lim{plim}_modefull_covs.csv'
+filenam = f'Results/fw_random100_order2_mixedTrue_lim0.05_modefull_refitauto_noise0.1_covs.csv'
 limit = 1
 
 master = ascii.read(filenam)
