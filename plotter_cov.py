@@ -12,7 +12,7 @@ tests=100
 plim=0.05
 mixed=True
 
-filenam = f'Results/fw_random100_order2_mixedTrue_lim0.05_modefull_refitauto_noise0.1_covs.csv'
+filenam = f'Results/fuckpython.csv'
 limit = 1
 
 master = ascii.read(filenam)
@@ -66,79 +66,47 @@ fig = make_subplots(
                     "Cuq", "Cuu"),
     column_widths=[0.5, 0.5])
 
-fig.add_trace(go.Contour(
+fig.add_trace(go.Heatmap(
     z=cov11,
     x=unx,  # horizontal axis
     y=uny,
     colorbar=dict(exponentformat='power', len=0.4, x=0.45, y=0.8),
-    line_smoothing=0.95,
-    contours=dict(
-        size=0.01,
-    )),
+    zsmooth="best",),
     row=1, col=1)
 
-fig.add_trace(go.Contour(
+fig.add_trace(go.Heatmap(
     z=cov12,
     x=unx,  # horizontal axis
     y=uny,
     colorbar=dict(exponentformat='power', len=0.4, x=1, y=0.8),
-    line_smoothing=0.95,
-    contours=dict(
-        size=0.01,
-    )),
+    zsmooth="best"),
     row=1, col=2)
 
-fig.add_trace(go.Contour(
+fig.add_trace(go.Heatmap(
     z=cov21,
     x=unx,  # horizontal axis
     y=uny,
     colorbar=dict(exponentformat='power', len=0.4, x=0.45, y=0.2),
-    line_smoothing=0.95,
-    contours=dict(
-        size=0.01,
-    )),
+    zsmooth="best",),
     row=2, col=1)
 
-fig.add_trace(go.Contour(
+fig.add_trace(go.Heatmap(
     z=cov22,
     x=unx,  # horizontal axis
     y=uny,
     colorbar=dict(exponentformat='power', len=0.4, x=1, y=0.2),
-    line_smoothing=0.95,
-    contours=dict(
-        size=0.01,
-    )),
+    zsmooth="best",),
     row=2, col=2)
 
 fig['layout'].update(
-    title=f'Partially (and zero) Polarized: order: {order}, mixed: {mixed}, teststars: {tests}, polarization limit: {plim}'
+    title=f'Covariance partially (and zero) Polarized: order: {order}, mixed: {mixed}, teststars: {tests}, polarization limit: {plim}'
 )
-fig['layout']['yaxis1'].update(
-    scaleanchor="x1",
-    scaleratio=1
-)
-fig['layout']['yaxis2'].update(
-    scaleanchor="x2",
-    scaleratio=1
-)
-fig['layout']['yaxis3'].update(
-    scaleanchor="x3",
-    scaleratio=1
-)
-fig['layout']['yaxis4'].update(
-    scaleanchor="x4",
-    scaleratio=1
-)
-fig['layout']['xaxis1'].update(
-    range=[-0.25, 0.25]
-)
-fig['layout']['yaxis2'].update(
-    range=[-0.25, 0.25]
-)
-fig['layout']['yaxis3'].update(
-    range=[-0.25, 0.25]
-)
-fig['layout']['yaxis4'].update(
-    range=[-0.25, 0.25]
-)
+fig["layout"]["yaxis1"].update(scaleanchor="x1", scaleratio=1)
+fig["layout"]["yaxis2"].update(scaleanchor="x2", scaleratio=1)
+fig["layout"]["yaxis3"].update(scaleanchor="x3", scaleratio=1)
+fig["layout"]["yaxis4"].update(scaleanchor="x4", scaleratio=1)
+fig["layout"]["xaxis1"].update(range=[-0.25, 0.25])
+fig["layout"]["yaxis2"].update(range=[-0.25, 0.25])
+fig["layout"]["yaxis3"].update(range=[-0.25, 0.25])
+fig["layout"]["yaxis4"].update(range=[-0.25, 0.25])
 fig.show()
