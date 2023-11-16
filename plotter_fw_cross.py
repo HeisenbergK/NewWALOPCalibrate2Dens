@@ -40,6 +40,12 @@ parser.add_argument(
     default=0.0,
     help="Noise for the model in %%",
 )
+parser.add_argument(
+    "satlim",
+    type=float,
+    default=1000,
+    help="Saturation limit",
+)
 args = parser.parse_args()
 
 _order = args.order
@@ -47,6 +53,7 @@ _mixed = bool(args.mixed)
 _tests = args.tests
 _plim = args.polarization_limit
 _noise = args.noise
+_satlim = args.satlim
 if _noise == 0.0:
     _noise = False
 if args.refit == "auto":
@@ -60,6 +67,9 @@ if _plim < 0.001 or _plim > 1.0:
     print("Polarization limit cannot be outside the range [0.001, 1.0]")
     exit()
 
+if _satlim < 0:
+    _satlim = 0.0 - _satlim
+
 print(f"Running with the following parameters:")
 print(f"Order:\t{_order}")
 print(f"Mixed:\t{_mixed}")
@@ -67,6 +77,7 @@ print(f"Tests:\t{_tests}")
 print(f"Polarization Limit:\t{_plim}")
 print(f"Refit:\t{_refit}")
 print(f"Noise:\t{_noise}%")
+print(f"Saturation Limit:\t{_satlim}")
 goon = input("Press enter to continue, Ctrl+c to abort")
 
 filenam = f"Results/fw_random{_tests}_order{_order}_mixed{_mixed}_lim{_plim}_modemodel_refit{_refit}_noise{_noise}.csv"
@@ -197,9 +208,9 @@ for i in range(0, len(master)):
         )
 
         if q0qval < 0:
-            q0q[indy, indx] = abs(max(q0qval, -3))
+            q0q[indy, indx] = abs(max(q0qval, -_satlim))
         else:
-            q0q[indy, indx] = min(q0qval, 3)
+            q0q[indy, indx] = min(q0qval, _satlim)
 
         q1qval = modellrun(
             [partextracted1q0u["qin"][0], partextracted1q0u["uin"][0]],
@@ -212,9 +223,9 @@ for i in range(0, len(master)):
         )
 
         if q1qval < 0:
-            q1q[indy, indx] = abs(max(q1qval, -3))
+            q1q[indy, indx] = abs(max(q1qval, -_satlim))
         else:
-            q1q[indy, indx] = min(q1qval, 3)
+            q1q[indy, indx] = min(q1qval, _satlim)
 
         q0uval = modellrun(
             [partextracted0q1u["qin"][0], partextracted0q1u["uin"][0]],
@@ -227,9 +238,9 @@ for i in range(0, len(master)):
         )
 
         if q0uval < 0:
-            q0u[indy, indx] = abs(max(q0uval, -3))
+            q0u[indy, indx] = abs(max(q0uval, -_satlim))
         else:
-            q0u[indy, indx] = min(q0uval, 3)
+            q0u[indy, indx] = min(q0uval, _satlim)
 
         q1uval = modellrun(
             [partextracted1q0u["qin"][0], partextracted1q0u["uin"][0]],
@@ -242,9 +253,9 @@ for i in range(0, len(master)):
         )
 
         if q1uval < 0:
-            q1u[indy, indx] = abs(max(q1uval, -3))
+            q1u[indy, indx] = abs(max(q1uval, -_satlim))
         else:
-            q1u[indy, indx] = min(q1uval, 3)
+            q1u[indy, indx] = min(q1uval, _satlim)
 
     except Exception as e:
         print(e)
