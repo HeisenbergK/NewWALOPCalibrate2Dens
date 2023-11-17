@@ -7,6 +7,7 @@ import argparse
 from models import modellrun
 from astropy.table import Table
 from astropy.io import ascii
+import matplotlib.pyplot as plt
 
 print(chr(27) + "[2J")
 splash()
@@ -329,6 +330,57 @@ fig["layout"]["xaxis1"].update(range=[-0.25, 0.25])
 fig["layout"]["yaxis2"].update(range=[-0.25, 0.25])
 fig["layout"]["yaxis3"].update(range=[-0.25, 0.25])
 fig["layout"]["yaxis4"].update(range=[-0.25, 0.25])
+# fig.show()
 
+malakia = [i for i in range(0,27,4)]
 
-fig.show()
+real_x=np.array([np.round(((i/24)*0.5)-0.25, 2) for i in malakia])
+real_y=np.array([np.round(((i/24)*0.5)-0.25, 2) for i in malakia])
+
+plt.clf()
+plt.imshow(q0q, interpolation="quadric", extent=[0, 24, 0, 24])
+plt.title(r"$q_c$ for $\left(q_i,u_i\right)=\left(0,1\right)$")
+plt.gca().invert_yaxis()
+plt.gca().set_xticks(malakia)
+plt.gca().set_xticklabels(real_x)
+plt.gca().set_yticks(malakia)
+plt.gca().set_yticklabels(real_y)
+plt.colorbar()
+plt.tight_layout()
+plt.savefig("Images/q0q.svg")
+
+plt.clf()
+plt.imshow(q0u, interpolation="quadric", extent=[0, 24, 0, 24])
+plt.title(r"$u_c$ for $\left(q_i,u_i\right)=\left(0,1\right)$")
+plt.gca().invert_yaxis()
+plt.gca().set_xticks(malakia)
+plt.gca().set_xticklabels(real_x)
+plt.gca().set_yticks(malakia)
+plt.gca().set_yticklabels(real_y)
+plt.colorbar()
+plt.tight_layout()
+plt.savefig("Images/q0u.svg")
+
+plt.clf()
+plt.imshow(q1q, interpolation="quadric", extent=[0, 24, 0, 24])
+plt.title(r"$q_c$ for $\left(q_i,u_i\right)=\left(1,0\right)$")
+plt.gca().invert_yaxis()
+plt.gca().set_xticks(malakia)
+plt.gca().set_xticklabels(real_x)
+plt.gca().set_yticks(malakia)
+plt.gca().set_yticklabels(real_y)
+plt.colorbar()
+plt.tight_layout()
+plt.savefig("Images/q1q.svg")
+
+plt.clf()
+plt.imshow(q1u, interpolation="quadric", extent=[0, 24, 0, 24])
+plt.title(r"$u_c$ for $\left(q_i,u_i\right)=\left(1,0\right)$")
+plt.gca().invert_yaxis()
+plt.gca().set_xticks(malakia)
+plt.gca().set_xticklabels(real_x)
+plt.gca().set_yticks(malakia)
+plt.gca().set_yticklabels(real_y)
+plt.colorbar()
+plt.tight_layout()
+plt.savefig("Images/q1u.svg")

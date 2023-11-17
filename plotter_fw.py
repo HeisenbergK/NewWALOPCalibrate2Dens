@@ -4,6 +4,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import argparse
 from splash import splashplot
+import matplotlib.pyplot as plt
 
 print(chr(27) + "[2J")
 splashplot()
@@ -189,4 +190,57 @@ fig["layout"]["xaxis1"].update(range=[-0.25, 0.25])
 fig["layout"]["yaxis2"].update(range=[-0.25, 0.25])
 fig["layout"]["yaxis3"].update(range=[-0.25, 0.25])
 fig["layout"]["yaxis4"].update(range=[-0.25, 0.25])
-fig.show()
+# fig.show()
+
+malakia = [i for i in range(0,27,4)]
+
+real_x=np.array([np.round(((i/24)*0.5)-0.25, 2) for i in malakia])
+real_y=np.array([np.round(((i/24)*0.5)-0.25, 2) for i in malakia])
+
+plt.clf()
+plt.imshow(mdq, interpolation="quadric", extent=[0, 24, 0, 24])
+plt.title(r"Mean $\left(q_i-q_c\right)$")
+plt.gca().invert_yaxis()
+plt.gca().set_xticks(malakia)
+plt.gca().set_xticklabels(real_x)
+plt.gca().set_yticks(malakia)
+plt.gca().set_yticklabels(real_y)
+plt.colorbar()
+plt.tight_layout()
+plt.savefig("Images/mdq.svg")
+
+plt.clf()
+plt.imshow(mdu, interpolation="quadric", extent=[0, 24, 0, 24])
+plt.title(r"Mean $\left(u_i-u_c\right)$")
+plt.gca().invert_yaxis()
+plt.gca().set_xticks(malakia)
+plt.gca().set_xticklabels(real_x)
+plt.gca().set_yticks(malakia)
+plt.gca().set_yticklabels(real_y)
+plt.colorbar()
+plt.tight_layout()
+plt.savefig("Images/mdu.svg")
+
+plt.clf()
+plt.imshow(sdq, interpolation="quadric", extent=[0, 24, 0, 24])
+plt.title(r"STD $\left(q_i-q_c\right)$")
+plt.gca().invert_yaxis()
+plt.gca().set_xticks(malakia)
+plt.gca().set_xticklabels(real_x)
+plt.gca().set_yticks(malakia)
+plt.gca().set_yticklabels(real_y)
+plt.colorbar()
+plt.tight_layout()
+plt.savefig("Images/sdq.svg")
+
+plt.clf()
+plt.imshow(sdu, interpolation="quadric", extent=[0, 24, 0, 24])
+plt.title(r"STD $\left(u_i-u_c\right)$")
+plt.gca().invert_yaxis()
+plt.gca().set_xticks(malakia)
+plt.gca().set_xticklabels(real_x)
+plt.gca().set_yticks(malakia)
+plt.gca().set_yticklabels(real_y)
+plt.colorbar()
+plt.tight_layout()
+plt.savefig("Images/sdu.svg")
